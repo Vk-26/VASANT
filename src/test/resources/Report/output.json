@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6503638483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksClass.beforesce()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify Adactin login with valid credentials",
+        "description": "",
+        "id": "verify-adactin-details;verify-adactin-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 96572,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooksClass.aftersce(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1681554167,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should login by using \"Vasanthuser\", \"Password\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasanthuser\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDef.userShouldLoginByUsingAndClickLoginButton(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1953987821,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"Sydney\",\"Hotel Creek\",\"Standard\",\"1 - One\",\"\u003ccheck in date\u003e\",\"\u003ccheck out date\u003e\",\"1 - One\",\"\u003cchildren per room\u003e\" and click search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"\u003ccheck in date\u003e\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"\u003ccheck out date\u003e\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"\u003cchildren per room\u003e\"",
+                  "offset": 113
+                }
+              ],
+              "location": "StepDef.userShouldEnterTheAndClickSearchButton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 941337342,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the checkbox and Search button",
+            "match": {
+              "location": "StepDef.userShouldClickTheCheckboxAndSearchButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1021880347,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter some details like \"Vasanthkumar\",\"Arunachalam\",\"TamilNadu, India\",\"\u003ccredit card no\u003e\",\"American Express\",\"November\",\"2025\",\"333\" and click Book Now button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vasanthkumar\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Arunachalam\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"TamilNadu, India\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"\u003ccredit card no\u003e\"",
+                  "offset": 84
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"November\"",
+                  "offset": 122
+                },
+                {
+                  "val": "\"2025\"",
+                  "offset": 133
+                },
+                {
+                  "val": "\"333\"",
+                  "offset": 140
+                }
+              ],
+              "location": "StepDef.userShouldEnterSomeDetailsLikeAbdClickBookNowButton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7206773484,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should validate the Booking Confirmation",
+            "match": {
+              "location": "StepDef.userShouldValidateTheBookingConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Adactin details",
+    "description": "",
+    "id": "verify-adactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Booking.feature",
+    "tags": []
+  }
+]
